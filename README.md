@@ -9,3 +9,5 @@
 "react-redux": "^7.0.3" <br />
 "redux": "^4.0.1", <br />
 "immutable": "^4.0.0-rc.12",  <br />
+"react-router-dom": "^5.0.0", <br />
+

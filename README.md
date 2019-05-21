@@ -1,9 +1,11 @@
-运行: 
-1 . cd 根目录,终端执行 npm install
-2 . 终端 yarn start 运行
+运行:  <br />
+1 . cd 根目录,终端执行 npm install <br />
+2 . 终端 yarn start 运行 <br />
 
 
-使用三方库:
-react-transition-group
-styled-components
-
+使用三方库: <br />
+"react-transition-group":  "^4.0.1" <br />
+"styled-components": "^4.2.0" <br />
+"react-redux": "^7.0.3" <br />
+"redux": "^4.0.1", <br />
+"immutable": "^4.0.0-rc.12",  <br />

@@ -77,6 +77,18 @@ export const ListInfo = style.div`
     color: #999;
   }
 `
+
+export const LoadMore = style.div`
+   width: 100%;
+   height: 40px;
+   margin: 30px 0;
+   background: #a5a5a5;
+   line-height: 40px;
+   text-align: center;
+   border-radius: 20px;
+   color: #fff;
+   cursor: pointer;
+`
 // RecommedItem 
 export const RecommedWrapper = style.div`
    margin: 30px 0;
@@ -91,7 +103,7 @@ export const RecommedItem = style.div`
     background-size: contain;
 `
 
-//
+// Writer
 export const WriterWrapper = style.div`
     width: 278px;
     border: 1px solid #dcdcdc;
@@ -99,4 +111,17 @@ export const WriterWrapper = style.div`
     border-radius: 3px;
     line-height: 300px;
     text-align: center
+`
+
+// 回到顶部 
+export const BackTop = style.div`
+   position: fixed;
+   right:100px;
+   bottom: 100px;
+   width: 60px;
+   height: 60px;
+   text-align:center;
+   line-height: 60px;
+   border: 1px solid #ccc;
+   font-size: 14px;
 `

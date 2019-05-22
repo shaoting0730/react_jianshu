@@ -3,7 +3,6 @@ import { RecommedWrapper,RecommedItem } from '../style';
 import { connect } from 'react-redux';
 
 class Recommed extends Component {
-    props: { list: any; };
     render() {
         const { list } = this.props;
         return (
@@ -20,7 +19,7 @@ class Recommed extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        list: state.home.get('recommedList')
+        list: state.home.get('recommendList')
     }
 }
 export default connect(mapStateToProps, null)(Recommed);

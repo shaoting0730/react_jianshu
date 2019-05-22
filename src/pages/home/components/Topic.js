@@ -3,7 +3,6 @@ import { TopicWrapper, TopicItem } from '../style';
 import { connect } from 'react-redux';
 
 class Topic extends Component {
-    props: { list: any; };
     render() {
         const { list } = this.props;
         return (

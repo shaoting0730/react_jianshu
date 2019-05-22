@@ -1,4 +1,5 @@
 import { fromJS } from 'immutable';
+import { RecommedItem } from '../style';
 const defaultState = fromJS({
     topicList: [
         {
@@ -42,8 +43,17 @@ const defaultState = fromJS({
             desc:'植物也是有灵性的，如果你喜欢它，把它带回家了，请好好爱护它，不要随便丢弃哦！如果你有植物知识，养护方面的问题，欢迎在留言区留言！ 那么，如何...',
             imgUrl:'https://upload-images.jianshu.io/upload_images/14839734-85b82115576c7234.JPG?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240'
         },
+    ],
+    recommedList: [
+      {
+         id:1,
+         imgUrl:'https://cdn2.jianshu.io/assets/web/banner-s-club-aa8bdf19f8cf729a759da42e4a96f366.png', 
+      },
+      {
+        id:2,
+        imgUrl:'https://cdn2.jianshu.io/assets/web/banner-s-7-1a0222c91694a1f38e610be4bf9669be.png', 
+     }
     ]
-
 });
 
 export default (state = defaultState, action) => {

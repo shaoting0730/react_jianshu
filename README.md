@@ -12,5 +12,6 @@
 "immutable": "^4.0.0-rc.12",  <br />
 "react-router-dom": "^5.0.0", <br />
 "redux-thunk": "^2.3.0",  <br />
+"react-loadable": "^5.5.0",  <br />
 
 

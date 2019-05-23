@@ -1,11 +1,27 @@
 import React, { Component } from 'react';
+import { DetailWrapper, Header, Content } from './style';
+import { connect } from 'react-redux';
 
 class Detail extends Component {
     render() {
+        const {title,content } = this.props;
         return (
-            <div>详情页</div>
+            <DetailWrapper>
+                <Header>{title}</Header>
+                <Content dangerouslySetInnerHTML={{__html:content}} />>
+                
+            </DetailWrapper>
         )
     }
 }
 
-export default Detail;
+const mapStateToProps = (state) => {
+    return {
+        title: state.detail.get('title'),
+        content: state.detail.get('content'),
+    }
+}
+const mapDispatch = (dispatch) => ({
+    
+})
+export default connect(mapStateToProps, mapDispatch)(Detail);
